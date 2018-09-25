@@ -27,15 +27,15 @@ class Card extends Component {
         </div>
  
 
-        <form name="search" className="card--search" method="post">
+       <form name="search" className="card--search" method="post">
           <input type="search" placeholder="Search Terrastories" className="search--field"></input>
-        </form>
+        </form> 
 
         <div className="card--nav">
           <ul>
-            <li><a href="#">Filter 1 ⌄</a></li>
-            <li><a href="#">Filter 2 ⌄</a></li>
-            <li><a href="#">Filter 3 ⌄</a></li>
+            <li><a href="#">Region ↓</a></li>
+            <li><a href="#">Type of place ↓</a></li>
+            <li><a href="#">Speaker ↓</a></li>
           </ul>
         </div>
 
